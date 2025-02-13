@@ -1,0 +1,203 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and global styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+}
+
+header .logo {
+  width: 250px;  /* Adjust size of logo */
+  height: auto;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Menu Section */
+#menu {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+#menu .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#menu h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-items .item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.menu-items .item h3 {
+  margin-bottom: 10px;
+}
+
+.menu-items .item p {
+  color: #924242;
+}
+
+/* Services Section */
+#services {
+  background-color: #e2e2e2;
+  padding: 40px 20px;
+}
+
+#services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.services-list .service {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.services-list .service h3 {
+  margin-bottom: 10px;
+}
+
+.services-list .service p {
+  color: #555;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+#contact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+/* Developer's Logo Styling */
+.developer-logo {
+  width: 300px;  /* Adjust the size as necessary */
+  height: auto;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  opacity: 0.7;  /* Slight hover effect on the link */
+}
